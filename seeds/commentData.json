@@ -1,27 +1,17 @@
 [
     {
-        "comment": "This is something we as coders need to start paying more attention to!",
+        "comment": "Happy birthday Dad! Love you lots",
         "blog_id": 1,
         "user_id": 1
     },
     {
-        "comment": "As an artist, I am extremely excited about this new technology. Cannot wait to hear more about it!",
+        "comment": "G whats your pick?",
         "blog_id": 2,
         "user_id": 2
     },
     {
-        "comment": "I would love to integrate this into my dental practice, I think my patients would love this!",
+        "comment": "who am i",
         "blog_id": 3,
         "user_id": 3
-    },
-    {
-        "comment": "ChatGPT is crazy dude!!!",
-        "blog_id": 4,
-        "user_id": 2
-    },
-    {
-        "comment": "I want to be involved!",
-        "blog_id": 4,
-        "user_id": 1
     }
 ]

@@ -6,27 +6,12 @@
     },
     {
         "id": 2,
-        "username": "Coder4Life",
+        "username": "ibetG",
         "password": "password12345678"
     },
     {
         "id": 3,
-        "username": "Dr.Tech",
+        "username": "kyleSucks123",
         "password": "password321"
-    },
-    {
-        "id": 4,
-        "username": "Adam Zewe, MIT",
-        "password": "password123456"
-    },
-    {
-        "id": 5,
-        "username": "Louis DiPietro, Cornell University",
-        "password": "password1234567"
-    },
-    {
-        "id": 6,
-        "username": "Chatter",
-        "password": "chatgptforever123"
     }
 ]
