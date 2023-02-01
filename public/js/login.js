@@ -1,0 +1,58 @@
+
+//* function to handle request to login after user enters username and password
+const loginFormHandler = async (event) => {
+    event.preventDefault();
+
+    //* Collect values from the login form (existing user input info to login)
+    const username = document.querySelector('#username-login').value.trim();
+    const password = document.querySelector('#password-login').value.trim();
+
+    if (username && password) {
+        // Send a POST request to the API endpoint
+        //* fetch user login data from database to see if existant through api/users/login route
+        const response = await fetch('/api/users/login', {
+            method: 'POST',
+            body: JSON.stringify({ username, password }),
+            headers: { 'Content-Type': 'application/json' },
+        });
+
+        if (response.ok) {
+            //* If successful, redirect the browser to the dashboard page
+            document.location.replace('/dashboard');
+        } else {
+            alert(response.statusText);
+        }
+    }
+};
+
+//* function to handle new user signing up (requires same input values as login - username and password)
+// const signupFormHandler = async (event) => {
+//     event.preventDefault();
+
+//     const username = document.querySelector('#username-signup').value.trim();
+//     const password = document.querySelector('#password-signup').value.trim();
+
+//     if (username && password) {
+//         const response = await fetch('/api/users/signup', {
+//             method: 'POST',
+//             body: JSON.stringify({ username, password }),
+//             headers: { 'Content-Type': 'application/json' },
+//         });
+
+//         if (response.ok) {
+//             document.location.replace('/dashboard');
+//         } else {
+//             alert(response.statusText);
+//         }
+//     }
+// };
+
+document
+    // grabs form element with class="form login-form" to take input when existing user logs in
+    .querySelector('.login-form')
+    // listener for button element with type="submit", current btn text equal to login
+    .addEventListener('submit', loginFormHandler);
+
+// document
+//     .querySelector('.signup-form')
+//     .addEventListener('submit', signupFormHandler);

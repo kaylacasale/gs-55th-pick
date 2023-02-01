@@ -1,0 +1,39 @@
+<div class="comments">
+    {{#each this}}
+    <div class="card">
+        <h3 class="card-header"></h3>
+        <section class="comment card-body">
+            <div class="text">{{comment}}</div>
+            {{!-- <div>{{comment_user.username}}</div> --}}
+            {{!-- <div>{{user}}</div> --}}
+        </section>
+    </div>
+    {{/each}}
+</div>
+-{{user_id}}
+<script src="/js/blog.js"></script>
+<script src="/js/comment.js"></script>
+{{!-- <div class="text-center">
+    <h2>Comments:</h2>
+    <h3>{{comment}}</h3>
+</div> --}}
+{{!-- {{#each comments as |comment|}}
+<div class="row mb-4">
+    <h2>
+        <a href="/comment/{{comment.id}}">{{comment.comment}}</a>
+    </h2>
+</div>
+<button class="btn btn-primary" data-id="{{comment.id}}">Submit Comment</button>
+</div> --}}
+
+{{!-- <div class="comment-delete">
+    <h3>Comments:</h3>
+
+    {{#each comments as |comment|}}
+    <div class="row mb-4">
+        <h2>
+            <a href="/comment/{{comment.id}}">{{comment.comment}}</a>
+        </h2>
+    </div>
+    <button class="btn btn-primary" data-id="{{comment.id}}">Submit Comment</button>
+</div> --}}

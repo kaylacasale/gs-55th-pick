@@ -1,0 +1,33 @@
+{{!-- when user presses individual blog post from dashboard --> option to update /delete(?) --}}
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h3>Update a Blog Post:</h3>
+
+        <form class="form blog-update">
+            <div class="form-group">
+                <label for="blog-title">Blog title:</label>
+                <input class="form-input" type="text" id="blog-title" name="blog-title" placeholder="{{title}}" />
+            </div>
+            <div class="form-group">
+                <label for="blog-content">Blog content:</label>
+                {{!-- {{}}to populate existing title/content in input area to update blog --}}
+                <input class="form-input" type="text" id="blog-content" name="blog-content" placeholder="{{content}}" />
+            </div>
+            {{!-- <div class="form-group">
+                <label for="project-desc">description:</label>
+                <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+            </div> --}}
+            {{!-- to submit new blog below (on dashboard page) --}}
+            {{!-- blog.id? --}}
+            <div class="form-group">
+                <button class="btn btn-sm btn-danger" data-id="{{id}}" type="submit">UPDATE</button>
+            </div>
+            {{!-- <div class="form-group">
+                <button class="btn btn-sm btn-danger" data-id="{{id}}">DELETE</button>
+            </div> --}}
+        </form>
+    </div>
+
+    <script src="/js/updateBlog.js"></script>
+    {{!--
+    <script src="/js/dashboard.js"></script> --}}

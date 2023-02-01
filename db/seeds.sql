@@ -1,0 +1,1 @@
+-- technically do not need seeds bc user is making POST requests to ADD content such as blog post and comments --

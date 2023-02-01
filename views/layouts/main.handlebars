@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G's 55th Pick</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/jass.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-dark bg-dark shadow-lg mb-5 p-3">
+            <a class="navbar-brand" style="font-size: 35px" href="/">G's 55th Pick</a>
+            <i style="color: aliceblue;" class="material-icons d-inline-block align-top">cake</i>
+            {{!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav"> --}}
+                    {{!-- since Home and Dashboard will always be options despite being logged in or logged out --}}
+                    <a class="nav-item nav-link active" style="color: aliceblue;" href="/">Home <span
+                            class="sr-only"></span></a>
+                    <a class="nav-item nav-link active" style="color: aliceblue;" href="/dashboard">Dashboard <span
+                            class="sr-only"></span></a>
+                    <!-- Conditionally render login or logout links -->
+                    {{#if logged_in}}
+                    {{!-- <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a> |
+                    --}}
+                    <button class="no-button" style="color: aliceblue;" id="logout">logout</button>
+                    {{else}}
+                    <a href="/login">login</a>
+                    {{/if}}
+                    {{!-- <a class="nav-item nav-link active" href="/dashboard">Dashboard <span
+                            class="sr-only">(current)</span></a> --}}
+                    {{!-- <a class="nav-item nav-link" href="#">Dashboard</a> --}}
+                    <!-- <a class="nav-item nav-link" href="#">Logout</a> -->
+                    <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+                    <!-- Render the sub layout -->
+
+                    {{!-- {{{body}}} --}}
+                    {{!--
+                </div>
+            </div> --}}
+        </nav>
+        {{!-- <p class="shadow-lg p-3 mx-2 my-2" style="text-align: center;">Share Anything Tech!</p> --}}
+        <main class="container container-fluid mt-5">
+            <!-- Render the sub layout -->
+            {{{ body }}}
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <!-- Render script for logged in users only -->
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
+
+    <footer>
+        <p>Back-end and Front-end Created with Javascript, HTML, CSS, MySQL, and Heroku by Kayla Casale</p>
+        <a href="https://www.github.com/kaylacasale" target="_blank"></a>
+    </footer>
+</body>
+c
+
+</html>
+</body>
+
+</html>

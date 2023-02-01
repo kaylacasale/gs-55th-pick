@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Happy Birthday Gerard!!!",
+        "content": "Cheers to you.",
+        "user_id": 4
+    },
+    {
+        "id": 2,
+        "title": "New Programming Tool Turns Hand-written Sketches into Code",
+        "content": "Researchers at Cornell University have created an interface that allows users to handwrite and sketch within computer code. This is revolutionary given conventional coding, which relies on typing.",
+        "user_id": 5
+    },
+    {
+        "id": 3,
+        "title": "SMISE - Keep Track of Your Teeth 🦷",
+        "content": "A Personalized Predictive Analytics Engine for Your Dental Health Records. SMISE integrates objective health records with subjective personal opionions to customize your dental profile. The Algorithm optimizes patient-provider interactions through safe and smart technology. More info: https://www.behance.net/gallery/150627573/SMISE-Dental-Application-Final-Version-2022",
+        "user_id": 1
+    },
+    {
+        "id": 4,
+        "title": "A Robot is Finally a Licensed Doctor, Lawyer, and Master in Business Administration",
+        "content": "Chat GPT passed the US Medical Licensing Exam, the Bar, and the MBA exam. AI techniques will continue to become more advanced as we give computers more data. The possibilities are limitless!",
+        "user_id": 6
+    }
+]
