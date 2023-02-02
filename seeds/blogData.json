@@ -1,14 +1,17 @@
 [
     {
-        "id": 1,
         "title": "Happy Birthday Gerard!!!",
         "content": "Cheers to you.",
-        "user_id": 4
+        "user_id": 1
     },
     {
-        "id": 2,
         "title": "Santa Anita picks? Let's bet...",
         "content": "Santa Monica Stakes (Gr II), F/M, 4 & UP, 7F - $200,000. What's everyone betting?",
-        "user_id": 5
+        "user_id": 2
+    },
+    {
+        "title": "SMISE - Keep Track of Your Teeth 🦷",
+        "content": "Santa Monica Stakes (Gr II), F/M, 4 & UP, 7F - $200,000. What's everyone betting?",
+        "user_id": 3
     }
 ]

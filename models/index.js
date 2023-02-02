@@ -18,6 +18,7 @@ Blog.hasMany(Comment, {
 
 Comment.belongsTo(Blog, {
     foreignKey: 'blog_id',
+    // onDelete: 'SET NULL'
 })
 
 
