@@ -1,7 +1,7 @@
 [
     {
-        "title": "Happy Birthday Gerard!!!",
-        "content": "Cheers to you.",
+        "title": "Live Racing - Sun/Jan 29",
+        "content": "Winning horse: CHLOE's CROWN. Jockey: Kazushi Kimura - 124 lbs., Trainer: Michael W. McCarthy. Owner: Cannon Thoroughbreds, LLC.",
         "user_id": 1
     },
     {
@@ -10,8 +10,18 @@
         "user_id": 2
     },
     {
-        "title": "SMISE - Keep Track of Your Teeth 🦷",
-        "content": "Santa Monica Stakes (Gr II), F/M, 4 & UP, 7F - $200,000. What's everyone betting?",
+        "title": "1st Racing Tour - Live Racing - Sat/Feb 4",
+        "content": "Stakes: Santa Monica Stakes (Gr II), F/M, 4 & UP, 7F - $200,000... What's everyone betting?",
         "user_id": 3
+    },
+    {
+        "title": "Live Racing - Sat/Feb 25",
+        "content": "Stakes: Santa Ysabel Stakes (Gr III), F, 3 YO, 1 1/16M - $100,000",
+        "user_id": 1
+    },
+    {
+        "title": "Sat/Feb 25 - Jockey Info",
+        "content": "Current Meet Leading Jockeys: Juan J. Hernandez, Lanfranco Dettori, and Edwin A. Maldanado (https://www.santaanita.com/racing-information#race?day=2023-02-25)",
+        "user_id": 1
     }
 ]
